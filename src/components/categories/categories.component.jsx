@@ -10,12 +10,9 @@ const Categories = ({categories}) => {
           return (
             <CategoryItem key={category.id} category={category}/>
           )
-        })}
-  
-  
+        })}    
       </div>
     );
-
 }
 
 export default Categories;
